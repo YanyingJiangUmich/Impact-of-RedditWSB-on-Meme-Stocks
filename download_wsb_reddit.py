@@ -11,18 +11,13 @@ def get_date(created):
 
 
 def reddit_connection() -> Reddit: #get reddit connection 
-    personal_use_script = os.environ["REDDIT_PERSONAL_USE_SCRIPT_14_CHARS"]
-    client_secret = os.environ["REDDIT_SECRET_KEY_27_CHARS"]
-    user_agent = os.environ["REDDIT_APP_NAME"]
-    username = os.environ["REDDIT_USER_NAME"]
-    password = os.environ["REDDIT_LOGIN_PASSWORD"]
-    # print(personal_use_script, client_secret, user_agent, username, password)
+    personal_use_script = "fill in"
+    client_secret = "fill in"
+    user_agent = "fill in"
 
     reddit = Reddit(client_id=personal_use_script,
                     client_secret=client_secret,
-                    user_agent=user_agent,
-                    username=username,
-                    password=password)
+                    user_agent=user_agent)
     return reddit
 
 
