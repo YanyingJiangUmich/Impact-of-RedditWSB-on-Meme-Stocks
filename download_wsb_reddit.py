@@ -11,8 +11,8 @@ def get_date(created):
 
 
 def reddit_connection() -> Reddit: #get reddit connection 
-    personal_use_script = "roXoswzrvcxlI9j9nFC3QA"
-    client_secret = "SG_F3rJ0hGAGlEDvnoH05wZSy82NSQ"
+    personal_use_script = "xxxxxxxxxxxxxxxxxx" #enter your own personal_use_script from 'create application' https://www.reddit.com/prefs/apps/
+    client_secret = "xxxxxxxxxxxxxxxxxxx" #enter your own secret key from 'create application' https://www.reddit.com/prefs/apps/
     user_agent = "testscript by yanying"
 
     reddit = Reddit(client_id=personal_use_script,
