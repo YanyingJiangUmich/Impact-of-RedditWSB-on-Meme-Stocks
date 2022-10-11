@@ -11,9 +11,9 @@ def get_date(created):
 
 
 def reddit_connection() -> Reddit: #get reddit connection 
-    personal_use_script = "fill in"
-    client_secret = "fill in"
-    user_agent = "fill in"
+    personal_use_script = "roXoswzrvcxlI9j9nFC3QA"
+    client_secret = "SG_F3rJ0hGAGlEDvnoH05wZSy82NSQ"
+    user_agent = "testscript by yanying"
 
     reddit = Reddit(client_id=personal_use_script,
                     client_secret=client_secret,
